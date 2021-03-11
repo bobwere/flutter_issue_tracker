@@ -1,0 +1,16 @@
+query FetchAllLabels($endCursor: String) {
+    repository(name: "flutter", owner: "flutter") {
+        labels(first: 100, after: $endCursor) {
+            pageInfo {
+                hasPreviousPage
+                hasNextPage
+                endCursor
+            }
+            edges {
+                node {
+                    name
+                }
+            }
+        }
+    }
+}

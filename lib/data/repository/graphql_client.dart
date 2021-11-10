@@ -11,7 +11,7 @@ export '../graphql/labels.data.gql.dart';
 
 Client initClient(String url) {
   const String personal_access_token =
-      "b7d9ef49ecbfa06ec4a0fe8e325be5618f9a2577";
+      "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";
   final link = HttpLink(url,
       defaultHeaders: {"authorization": "Bearer $personal_access_token"});
 

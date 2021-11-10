@@ -24,6 +24,7 @@ will load the first 10 items from the github api..when user is 100px from the bo
 ![Screenshot_20211110-151839](https://user-images.githubusercontent.com/50104714/141133185-c562cf3d-591d-437a-98dc-875f78c74d1c.png)
 
 will load details of a flutter issue when an item is tapped
+
 ![Screenshot_20211110-152801](https://user-images.githubusercontent.com/50104714/141133222-83986459-ea45-4cb5-b327-d6353c0e058b.png)
 
 
